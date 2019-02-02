@@ -29,3 +29,15 @@ function showContact() {
     document.getElementById("contact").style.display="block";
 }
 
+function showHighlight(){
+    var btns = document.getElementsByClassName("top-text");
+    console.log(btns);
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active-main");
+          current[0].className = current[0].className.replace(" active-main", "");
+          this.className += " active-main";
+          console.log(current);
+        });
+    }
+}

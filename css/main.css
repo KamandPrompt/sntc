@@ -95,3 +95,7 @@
 #wheeldef {
     padding-top: 15px;
 }
+
+.active-main, .top-text:hover, .top-text:focus{
+    color: #f3fb04 !important;
+}
