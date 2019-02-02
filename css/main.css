@@ -62,7 +62,7 @@
     font-family: "AvenirLTStd-Medium";
     display: inline-block;
     font-size:1.48vw; 
-    margin-left: 35vw;
+    margin-left: 36.5vw;
     letter-spacing: 0.188em;
     margin-top:1%;
     color:#BFBFBF;
@@ -98,4 +98,81 @@
 
 .active-main, .top-text:hover, .top-text:focus{
     color: #f3fb04 !important;
+}
+
+.service-head {
+    color: white;
+    font-size:1.4vw; 
+}
+
+.list-head {
+    font-size:1.2vw; 
+    color: white;
+}
+
+.list-def {
+    font-size:1vw; 
+    color:#BFBFBF;
+}
+
+.marketing {
+    font-family: "AvenirLTStd-Medium";
+}
+
+.logo-def {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.contact-left {
+    padding-top: 10%;
+    font-size: 1.4vw;
+    padding-left: 10% !important;
+}
+
+.contact-right {
+    text-align: center;
+    padding-top: 5% !important;
+}
+
+.speaker-row {
+    margin-left: 10%;
+    margin-right: 10%;
+    /* padding-left: 8%;  
+    padding-right: 8%;  
+    align-items: center;
+    text-align: center;
+    width: 100%; */
+}
+
+.circle-holder {
+    margin: 0 auto !important;
+}
+
+.speaker-text {
+    font-size: 20px;
+    font-family: "AvenirLTStd-Medium";
+}
+
+.speaker-company {
+    color: white;
+}
+
+.speaker-about {
+    color: white !important;
+}
+
+.speaker-name {
+    padding-top:5%;
+}
+
+.circle{
+    border-radius:50%;
+    border:4px solid #FFFFFF;
+    width:170px;
+    height:170px;
 }

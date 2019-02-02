@@ -40,4 +40,5 @@ function showHighlight(){
           console.log(current);
         });
     }
+    showHome();
 }
