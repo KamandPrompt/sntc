@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Myriad Pro Light SemiExtended';
+    src:url("../fonts/Myriad_Pro_Light_SemiExtended.otf");
+}
+
+@font-face {
+    font-family: "AvenirLTStd-Medium";
+    src:url("../fonts/AvenirLTStd-Medium.otf");
+}
+
+#body-content {
+    background-color: #242A2E;
+}
+
+.top-text{
+    font-size: 1.3vw;
+    font-family: "AvenirLTStd-Medium";
+    margin-top: 2vw;
+    float: left;
+    padding-left: 0.3vw;
+    color: #BFBFBF;
+    border-bottom: solid .5px #f3fb04;
+    padding-bottom: 0.2vw;
+}
+
+.top{
+    margin-left: 20.3vw;
+    margin-top: 3vw;
+    text-align: center;
+   
+}
+
+#t1 {
+    margin-right: 4%; 
+    padding-right: 9%;
+}
+
+#t2 {
+    padding-right: 10%;
+}
+
+#t3 {
+    padding-left: 6%;
+}
+
+#t4 {
+    margin-left: 4.6%;
+    padding-left: 6%;
+}
+
+#mid-logo {
+    float: left;
+}
+
+.logo
+{
+    height:7vw;
+}
+
+.def {
+    text-align: center;
+    font-family: "AvenirLTStd-Medium";
+    display: inline-block;
+    font-size:1.48vw; 
+    margin-left: 35vw;
+    letter-spacing: 0.188em;
+    margin-top:1%;
+    color:#BFBFBF;
+    margin-bottom: 50px;
+}
+
+#college {
+    color: white;
+    display: block;
+    padding-top: 5px;
+}
+
+.featurette-heading {
+    color: white !important;
+}
+
+.tab-content {
+    font-family: "AvenirLTStd-Medium";
+}
+
+[id^="wheelnav-indexDiv"] {
+    height: 50px;
+    width: 50px;
+}
