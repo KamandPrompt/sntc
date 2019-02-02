@@ -1,6 +1,6 @@
 function hideAll(){
     var a = document.getElementById("home");
-    var b = document.getElementById("apps");
+    var b = document.getElementById("services");
     var c = document.getElementById("about");
     var d = document.getElementById("contact");
     a.style.display="none";
@@ -14,9 +14,9 @@ function showHome() {
     document.getElementById("home").style.display="block";
 }
 
-function showApps() {
+function showServices() {
     hideAll();
-    document.getElementById("apps").style.display="block";
+    document.getElementById("services").style.display="block";
 }
 
 function showAbout() {
