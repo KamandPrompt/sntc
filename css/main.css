@@ -111,7 +111,7 @@
 }
 
 .list-def {
-    font-size:1vw; 
+    font-size:1.1vw; 
     color:#BFBFBF;
 }
 
@@ -175,4 +175,8 @@
     border:4px solid #FFFFFF;
     width:170px;
     height:170px;
+}
+
+#services {
+    text-align: center;
 }
