@@ -3,15 +3,22 @@ function hideAll(){
     var b = document.getElementById("services");
     var c = document.getElementById("about");
     var d = document.getElementById("contact");
+    var e = document.getElementById("tech");
     a.style.display="none";
     b.style.display="none";
     c.style.display="none";
     d.style.display="none";
+    e.style.display="none";
 }
 
 function showHome() {
     hideAll();
     document.getElementById("home").style.display="block";
+}
+
+function showTech() {
+    hideAll();
+    document.getElementById("tech").style.display="block";
 }
 
 function showServices() {
