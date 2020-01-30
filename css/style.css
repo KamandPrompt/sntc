@@ -3237,3 +3237,7 @@ only screen and (min-resolution: 2dppx) {
 .dropdown2:hover .dropdown-content {
   display: block;
 }
+
+.techmeet {
+  color: #fffdfd;
+}
