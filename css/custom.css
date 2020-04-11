@@ -5,3 +5,48 @@
 	padding: 0 0 3em 0;
 	position: relative;
 }
+
+/* system admins page  */
+
+.sys_admin .title {
+	text-align: center;
+	color: white;
+}
+
+.sys_admin .img-center {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+}
+
+.sys_admin .white-circle {
+	border: white solid 5px
+}
+
+.sys_admin .text-center {
+	text-align: center;
+}
+
+.sys_admin .team img {
+	height: 250px;
+	width: 250px;
+}
+
+/* index page footer */
+
+footer.main {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	text-align: right;
+}
+
+.footer-txt {
+	font-size: 1.3vw;
+	font-family: "AvenirLTStd-Medium";
+	color: #BFBFBF;
+	padding-bottom: 0.2vw;
+}
