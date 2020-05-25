@@ -34,18 +34,17 @@
 
 /* index page footer */
 
-footer.main {
+.footer{
 	position: absolute;
 	bottom: 0;
+	left: 1vw;
 	width: 100%;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	padding-right: 20px;
-	text-align: right;
 }
 
 .footer-txt {
-	font-size: 1.3vw;
+	font-size: 1em;
 	font-family: "AvenirLTStd-Medium";
 	color: #BFBFBF;
 	padding-bottom: 0.2vw;

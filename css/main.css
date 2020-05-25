@@ -174,12 +174,12 @@
 
 #services {
     text-align: center;
-    padding-left: 1.8vw
 }
 
 .service-list {
     display: flex;
     justify-content: center;
+    padding-left: 0;
 }
 
 .service-card {
@@ -190,6 +190,10 @@
     margin: 2rem;
     color: #FFFFFF;
     font-size: 2rem;
+}
+
+.service-footer {
+    text-align: left;
 }
 
 @media only screen and (max-width: 990px) {
@@ -256,6 +260,19 @@
     }
     .service-list {
         display: inline-block;
+    }
+
+    .footer {
+        position: unset !important;
+    }
+
+    .home-footer, .service-footer {
+        position: unset !important;
+    }
+
+    .about-footer, .tech-footer, .contact-footer{
+        position: absolute !important;
+        bottom: 0;
     }
 }
 
@@ -359,5 +376,18 @@
 
     .service-list {
         display: inline-block;
+    }
+
+    .footer {
+        position: unset !important;
+    }
+
+    .home-footer, .service-footer {
+        position: unset !important;
+    }
+
+    .tech-footer, .contact-footer{
+        position: absolute !important;
+        bottom: 0;
     }
 } 
