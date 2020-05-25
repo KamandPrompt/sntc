@@ -348,6 +348,15 @@
         width:130px;
         height:130px;
     }
+
+    /* For navwheel to become according to window size for small devices */
+    svg {
+        height: 80%;
+        width: 80%;
+        top: 20px !important;
+        margin-bottom: 40px !important;
+    }
+
     .service-list {
         display: inline-block;
     }
