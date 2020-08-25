@@ -7,18 +7,19 @@
     font-family: "AvenirLTStd-Medium";
     src:url("../fonts/AvenirLTStd-Medium.otf");
 }
-
-#body-content {
-    background-color: #242A2E;
+#bg-image {
+    background-image: url('../images/background-gif-network.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
-
 .top-text{
     font-size: 1.3vw;
     font-family: "AvenirLTStd-Medium";
     margin-top: 2vw;
     float: left;
     padding-left: 0.3vw;
-    color: #BFBFBF;
+    color: white;
     border-bottom: solid .5px #f3fb04;
     padding-bottom: 0.2vw;
 }
@@ -88,10 +89,6 @@
     width: 50px;
 }
 
-.text-muted {
-    line-height: 25px;
-}
-
 #wheeldef {
     padding-top: 15px;
 }
@@ -111,7 +108,7 @@
 }
 
 .list-def {
-    font-size:1.1vw; 
+    font-size:1.1vw;
     color:#BFBFBF;
 }
 
@@ -331,11 +328,6 @@
     .featurette-heading {
         margin-top: -8%;
         font-size: 6.2vw;
-    }
-
-    .text-muted {
-        font-size: 4vw;
-        line-height: 2px;
     }
 
     .contact-left {
