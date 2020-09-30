@@ -381,3 +381,11 @@
         display: inline-block;
     }
 } 
+
+@media only screen and (max-width: 400px) {
+    #sysadmin-button{
+        font-size: 3vw;
+        width: auto;
+    }
+
+}
