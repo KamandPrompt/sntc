@@ -151,6 +151,7 @@
 .speaker-text {
     font-size: 1.3vw;
     font-family: "AvenirLTStd-Medium";
+    overflow-wrap: break-word;
 }
 
 .speaker-company {
@@ -163,6 +164,7 @@
 
 .speaker-name {
     padding-top:5%;
+    font-size: 2vw;
 }
 
 .circle{
@@ -174,22 +176,26 @@
 
 #services {
     text-align: center;
-    padding-left: 1.8vw
 }
 
 .service-list {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .service-card {
     height: 300px;
     width: 200px;
     border: 2px solid #FFFFFF;
-    border-radius: 3px;
+    border-radius: 10px;
     margin: 2rem;
     color: #FFFFFF;
     font-size: 2rem;
+    padding:10px;
 }
 
 @media only screen and (max-width: 990px) {
@@ -254,9 +260,10 @@
     .speaker-text {
         font-size: 2vw;
     }
-    .service-list {
-        display: inline-block;
+    .speaker-name {
+        font-size: 3vw;
     }
+    
 }
 
 @media only screen and (max-width: 600px) {
@@ -327,7 +334,9 @@
         font-size: 3vw;
         text-align: center;
     }
-
+    .speaker-name {
+        font-size: 4vw;
+    }
     .featurette-heading {
         margin-top: -8%;
         font-size: 6.2vw;
@@ -345,8 +354,8 @@
     .circle{
         border-radius:50%;
         border:4px solid #FFFFFF;
-        width:130px;
-        height:130px;
+        width:100%;
+        height: auto;
     }
 
     /* For navwheel to become according to window size for small devices */
@@ -357,7 +366,4 @@
         margin-bottom: 40px !important;
     }
 
-    .service-list {
-        display: inline-block;
-    }
 } 
