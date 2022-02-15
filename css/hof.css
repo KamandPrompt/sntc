@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Yatra+One');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Exo 2', sans-serif;
+}
+
+
+.header{
+    background-color: #242A2E;
+}
+.header h1{
+    
+    color: brown;
+    font-size: 100px;
+    position: relative;
+    text-align: center;
+    font-family: 'Yatra One', cursive ;
+}
+.header h2{
+    color: silver;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    font-family: 'Yatra One', cursive ;
+
+}
+.container h3{
+    text-align: center;
+    color: #ffa42f; ;
+    text-decoration: underline;
+    font-family: 'Yatra One', cursive ;
+    font-size: 40px;
+}
+
+
+.container{
+    margin-top: 100px;
+    background-color: #242A2E;
+    border-radius: 15px;
+    
+}
+
+
+
+.our-team{
+   
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px 10px 20px;
+    background:#242A2E;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.our-team .pic{
+    
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+    transition: all 0.5s ease 0s;
+    
+}
+/*
+.our-team:hover .pic{
+    
+    border-radius: 50%;
+}*/
+.pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.our-team .title{
+    font-weight: 600;
+    color: #ffff;
+    text-transform: capitalize;
+    display: block;
+    font-size: 15px;
+    margin-top: 4px;
+    
+}
+.our-team .post{
+    color: #ffff;
+    text-transform: capitalize;
+    display: block;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+.our-team .social{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.our-team .social li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.our-team .social li a{
+    border-radius: 50%;
+    font-size: 15px;
+    color: #17bebb;
+    border: 1px solid #17bebb;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .social li a{
+    
+    background: #a020f0;;
+    
+}
+/*
+.our-team:hover .pic{
+    background: black;
+    border-radius: 50%;
+}*/
+
+/* index page footer */
+
+footer.main {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	text-align: right;
+}
+
+.footer-txt {
+	font-size: 1.3vw;
+	font-family: "AvenirLTStd-Medium";
+	color: #BFBFBF;
+	padding-bottom: 0.2vw;
+}
