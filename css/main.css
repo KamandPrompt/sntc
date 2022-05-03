@@ -9,7 +9,7 @@
 }
 
 #body-content {
-    background-color: #242A2E;
+    background-color: #222222;
 }
 
 .top-text{
@@ -19,7 +19,7 @@
     float: left;
     padding-left: 0.3vw;
     color: #BFBFBF;
-    border-bottom: solid .5px #f3fb04;
+    border-bottom: solid .5px #00bcd7;
     padding-bottom: 0.2vw;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .active-main, .top-text:hover, .top-text:focus{
-    color: #f3fb04 !important;
+    color: #00bcd7 !important;
 }
 
 .service-head {
